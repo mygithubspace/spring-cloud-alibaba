@@ -10,6 +10,7 @@ import org.springframework.cloud.stream.messaging.Sink;
  * @description: RocketMQ 消费者
  * @data 2019/2/19
  */
+
 @SpringBootApplication
 @EnableBinding({Sink.class})
 public class RocketMQConsumerApplication {
